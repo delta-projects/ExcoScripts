@@ -5,6 +5,7 @@ import com.script.excobot.generic.Node;
 import com.script.excobot.gui.Frame;
 import com.script.excobot.gui.javafx.Form;
 import com.script.excobot.node.Antiban;
+import com.script.excobot.node.Banking;
 import org.excobot.bot.event.listeners.PaintListener;
 import org.excobot.bot.script.GameScript;
 import org.excobot.bot.script.Manifest;
@@ -26,7 +27,7 @@ import java.util.List;
  * Created with IntelliJ IDEA.
  * User: DELTA
  */
-@Manifest(authors = "Delta & Tz TokJAd" , name = "AIO Cookerrrrrrrrrrr", description = "Cooks Food" , version=1.3D)
+@Manifest(authors = "Delta & Tz TokJAd" , name = "AIO Cooker", description = "Cooks Food" , version=1.3D)
 public class Cooker extends GameScript implements PaintListener {
 
     private final List<Node> nodes = Collections.synchronizedList(new ArrayList<Node>());
@@ -44,13 +45,8 @@ public class Cooker extends GameScript implements PaintListener {
 
     @Override
     public boolean start() {
-        frame = new Frame();
-        addNode(new Node[]{
-
-                new Antiban()
-        });
-
-        return true;  //To change body of implemented methods use File | Settings | File Templates.
+        this.frame = new Frame();
+        return true;
     }
 
 
@@ -59,12 +55,22 @@ public class Cooker extends GameScript implements PaintListener {
         graphics.drawRect(Mouse.getX(), Mouse.getY() , 50,50);
     }
 
+
     @Override
     public int execute() throws InterruptedException {
+        if(frame.isVisible()) {
+            return 100;
+        }
+        if(!data.isEmpty()) {
+            addNode(new Node[]{
+                    new Banking(),
+                    new Antiban()
+            });
+        }
         for(final Node node : nodes) {
             node.run();
         }
-        return Random.nextInt(10,180);  //To change body of implemented methods use File | Settings | File Templates.
+        return Random.nextInt(10,180);
     }
 
 

@@ -7,11 +7,13 @@ package com.script.excobot.enums;
  */
 public enum Location {
 
+    //7112 open 7111 closed
 
-    Rogues_Den("Rogues Den", 1),
+
+    Rogues_Den("Rogues Den", 24919),
     Nardah("Nardah", 1),
-    Catherby("Catherby" , 1),
-    Al_Kharid("Al Kharid",1);
+    Catherby("Catherby" , 24195),
+    Al_Kharid("Al Kharid", 24195);
 
     private final String name;
     private final int locationId;

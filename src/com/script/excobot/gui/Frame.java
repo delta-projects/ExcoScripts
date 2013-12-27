@@ -89,7 +89,7 @@ public class Frame extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 Food food = (Food) comboBox.getSelectedItem();
                 if(food != null) {
-                    Cooker.data.put("Food_ID" , new Data(food.getId()));
+                    Cooker.data.put("Food" , new Data<Food>(food));
                 }
             }
         });
@@ -106,7 +106,7 @@ public class Frame extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 Location location = (Location) locationBox.getSelectedItem();
                 if(location != null) {
-                    Cooker.data.put("Location_ID" , new Data(location.getLocationId()));
+                    Cooker.data.put("Location" , new Data(location));
                 }
             }
         });
