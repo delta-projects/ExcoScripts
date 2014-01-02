@@ -9,22 +9,32 @@
     <list default="true" id="112446aa-22a0-4946-957a-ee2ed03c48e7" name="Default" comment="" />
     <ignored path="ExcoScripts.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Cooker.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388176604317" ignored="false" />
-    <file path="/Node.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388082095558" ignored="false" />
+    <file path="/Cooker.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388670434291" ignored="false" />
+    <file path="/Node.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388668721197" ignored="false" />
     <file path="/Antiban.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388154005579" ignored="false" />
-    <file path="/Constants.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388177058360" ignored="false" />
-    <file path="/Cook.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388091028311" ignored="false" />
+    <file path="/Constants.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388665967522" ignored="false" />
+    <file path="/Cook.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388669545880" ignored="false" />
     <file path="/Food.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388172457689" ignored="false" />
     <file path="/Frame.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388173707344" ignored="false" />
     <file path="/ExcoScripts.iml" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388094304902" ignored="false" />
     <file path="/Controller.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388095444822" ignored="false" />
     <file path="/Form.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388097345275" ignored="false" />
     <file path="/Form.fxml" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388095961990" ignored="false" />
-    <file path="/Utils.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388139380675" ignored="false" />
+    <file path="/Utils.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388263436151" ignored="false" />
     <file path="/Data.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388139808623" ignored="false" />
-    <file path="/Location.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388146075796" ignored="false" />
-    <file path="/Bank.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388177818051" ignored="false" />
-    <file path="/Banking.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388177203511" ignored="false" />
+    <file path="/Location.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388307579240" ignored="false" />
+    <file path="/Bank.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388340933646" ignored="false" />
+    <file path="/Banking.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388307072843" ignored="false" />
+    <file path="/Door.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388262705453" ignored="false" />
+    <file path="/DoorHandler.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388307887398" ignored="false" />
+    <file path="/Paint.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388269855913" ignored="false" />
+    <file path="/fragment.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388492347769" ignored="false" />
+    <file path="/Banker.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388669844662" ignored="false" />
+    <file path="/SearchBank.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388666230032" ignored="false" />
+    <file path="/CameraPosition.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388665706196" ignored="false" />
+    <file path="/OpenBank.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388668937933" ignored="false" />
+    <file path="/CloseBank.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388669086883" ignored="false" />
+    <file path="/CookWidgetHandler.java" changelist="112446aa-22a0-4946-957a-ee2ed03c48e7" time="1388669528383" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,68 +98,57 @@
       <file leaf-file-name="Cooker.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/script/excobot/Cooker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="60" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1187#1201#0" expanded="true" />
-              </folding>
+            <state line="90" column="20" selection-start="3065" selection-end="3065" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Node.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/script/excobot/generic/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="44" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+            <state line="29" column="21" selection-start="791" selection-end="791" vertical-scroll-proportion="0.56889766">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Banking.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/script/excobot/node/Banking.java">
+      <file leaf-file-name="Data.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/script/excobot/generic/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="64" selection-start="1926" selection-end="1926" vertical-scroll-proportion="1.1402439">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Frame.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/script/excobot/gui/Frame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="59" selection-start="2740" selection-end="2740" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1277#1545#0" expanded="true" />
-                <element signature="e#1534#1535#0" expanded="true" />
-                <element signature="e#2481#2790#0" expanded="true" />
-                <element signature="e#2779#2780#0" expanded="true" />
-                <element signature="e#3136#3466#0" expanded="true" />
-                <element signature="e#3455#3456#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/script/excobot/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0">
+            <state line="7" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Cook.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/script/excobot/node/Cook.java">
+      <file leaf-file-name="CloseBank.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/script/excobot/nodes/CloseBank.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="86" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
+            <state line="11" column="16" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CameraPosition.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/script/excobot/nodes/CameraPosition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="33" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Antiban.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/script/excobot/nodes/Antiban.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="59" column="0" selection-start="2006" selection-end="2006" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,36 +156,34 @@
       <file leaf-file-name="Location.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/script/excobot/enums/Location.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="27" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+            <state line="20" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Food.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/script/excobot/enums/Food.java">
+      <file leaf-file-name="Form.fxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/script/excobot/gui/javafx/Form.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="27" selection-start="236" selection-end="239" vertical-scroll-proportion="0.0">
+            <state line="11" column="2" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Form.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/script/excobot/gui/javafx/Form.java">
+      <file leaf-file-name="Banker.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/script/excobot/nodes/Banker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="22" column="11" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/script/excobot/gui/javafx/Controller.java">
+      <file leaf-file-name="Cook.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/script/excobot/nodes/Cook.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
+            <state line="39" column="26" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,30 +201,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/script/excobot/generic/Node.java" />
-        <option value="$PROJECT_DIR$/src/com/script/excobot/gui/Controller.java" />
+        <option value="$PROJECT_DIR$/src/com/script/excobot/gui/Paint.java" />
         <option value="$PROJECT_DIR$/src/com/script/excobot/node/Cook.java" />
-        <option value="$PROJECT_DIR$/src/com/script/excobot/gui/Form.fxml" />
-        <option value="$PROJECT_DIR$/src/com/script/excobot/gui/Form.java" />
-        <option value="$PROJECT_DIR$/src/com/script/excobot/gui/Frame.form" />
-        <option value="$PROJECT_DIR$/src/com/script/excobot/utils/Utils.java" />
-        <option value="$PROJECT_DIR$/src/com/script/excobot/generic/Data.java" />
-        <option value="$PROJECT_DIR$/src/com/script/excobot/node/Antiban.java" />
-        <option value="$PROJECT_DIR$/src/com/script/excobot/enums/Food.java" />
-        <option value="$PROJECT_DIR$/src/com/script/excobot/enums/Location.java" />
+        <option value="$PROJECT_DIR$/src/com/script/excobot/nodes/Bank.java" />
         <option value="$PROJECT_DIR$/src/com/script/excobot/gui/Frame.java" />
-        <option value="$PROJECT_DIR$/src/com/script/excobot/node/Bank.java" />
-        <option value="$PROJECT_DIR$/src/com/script/excobot/Cooker.java" />
+        <option value="$PROJECT_DIR$/src/com/script/excobot/nodes/CameraPosition.java" />
         <option value="$PROJECT_DIR$/src/com/script/excobot/Constants.java" />
-        <option value="$PROJECT_DIR$/src/com/script/excobot/node/Banking.java" />
+        <option value="$PROJECT_DIR$/src/com/script/excobot/nodes/SearchBank.java" />
+        <option value="$PROJECT_DIR$/src/com/script/excobot/nodes/OpenBank.java" />
+        <option value="$PROJECT_DIR$/src/com/script/excobot/nodes/CloseBank.java" />
+        <option value="$PROJECT_DIR$/src/com/script/excobot/nodes/CookWidgetHandler.java" />
+        <option value="$PROJECT_DIR$/src/com/script/excobot/nodes/Banker.java" />
+        <option value="$PROJECT_DIR$/src/com/script/excobot/Cooker.java" />
+        <option value="$PROJECT_DIR$/src/com/script/excobot/nodes/Cook.java" />
+        <option value="$PROJECT_DIR$/src/com/script/excobot/nodes/Antiban.java" />
+        <option value="$PROJECT_DIR$/src/com/script/excobot/enums/Location.java" />
+        <option value="$PROJECT_DIR$/src/com/script/excobot/generic/Node.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1678" />
+    <option name="height" value="1008" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -256,7 +253,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -311,7 +307,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node" />
+              <option name="myItemId" value="nodes" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -334,32 +330,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExcoScripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ExcoScripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="excobot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="javafx" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -409,6 +379,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,16 +392,18 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/ExcoBot/scripts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="excoscripts" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="excoscripts" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
-    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
@@ -438,14 +411,14 @@
       <recent name="C:\Users\Luka\IdeaProjects\ExcoScripts\src\com\script\excobot\gui\javafx" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Cooker">
-    <configuration default="false" name="Cooker" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.script.excobot.Cooker" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+  <component name="RunManager" selected="Application.Application">
+    <configuration default="false" name="Application" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.excobot.Application" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
@@ -501,6 +474,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -526,19 +512,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -576,13 +549,13 @@
       <method />
     </configuration>
     <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="Application.Cooker" />
+      <item index="0" class="java.lang.String" itemvalue="Application.Application" />
       <item index="1" class="java.lang.String" itemvalue="Application.Form" />
       <item index="2" class="java.lang.String" itemvalue="Application.Frame" />
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.Cooker" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Application" />
         <item index="1" class="java.lang.String" itemvalue="Application.Frame" />
         <item index="2" class="java.lang.String" itemvalue="Application.Form" />
       </list>
@@ -619,30 +592,30 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1696" height="1026" extended-state="7" />
+    <frame x="1" y="1" width="1678" height="1008" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.7628635" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.7628635" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39863715" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.295302" sideWeight="0.37797618" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23713647" sideWeight="0.49880952" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23858447" sideWeight="0.49880952" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19821429" sideWeight="0.7628635" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.295302" sideWeight="0.6220238" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19795427" sideWeight="0.60958904" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39041096" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29452056" sideWeight="0.6220238" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297619" sideWeight="0.7628635" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -710,77 +683,18 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ExcoScripts.iml">
+    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/nodes/SearchBank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="63" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/gui/javafx/Form.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="1189" selection-end="1189" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/generic/Data.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="5" selection-start="318" selection-end="318" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/node/Antiban.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="10" selection-start="829" selection-end="829" vertical-scroll-proportion="0.0">
+        <state line="26" column="151" selection-start="918" selection-end="918" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/enums/Location.java">
+    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/nodes/OpenBank.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="27" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/gui/javafx/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/gui/Frame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="59" selection-start="2740" selection-end="2740" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1277#1545#0" expanded="true" />
-            <element signature="e#1534#1535#0" expanded="true" />
-            <element signature="e#2481#2790#0" expanded="true" />
-            <element signature="e#2779#2780#0" expanded="true" />
-            <element signature="e#3136#3466#0" expanded="true" />
-            <element signature="e#3455#3456#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/gui/javafx/Form.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+        <state line="35" column="13" selection-start="1184" selection-end="1184" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -789,57 +703,107 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/script/excobot/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="748" selection-end="748" vertical-scroll-proportion="0.0">
+        <state line="19" column="54" selection-start="531" selection-end="531" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/Downloads/ExcoBot_1.017.jar!/org/excobot/game/api/util/Time.class">
+    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/nodes/CookWidgetHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="155" selection-end="175" vertical-scroll-proportion="0.10083037">
+        <state line="31" column="79" selection-start="1172" selection-end="1203" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/gui/javafx/Form.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/enums/Food.java">
+    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/gui/Frame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="27" selection-start="236" selection-end="239" vertical-scroll-proportion="0.0">
+        <state line="108" column="49" selection-start="3404" selection-end="3404" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/generic/Node.java">
+    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/gui/javafx/Form.fxml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="44" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0">
+        <state line="11" column="2" selection-start="533" selection-end="533" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/script/excobot/Cooker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="60" selection-start="926" selection-end="926" vertical-scroll-proportion="0.0">
+        <state line="90" column="20" selection-start="3065" selection-end="3065" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/nodes/CloseBank.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1187#1201#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/node/Cook.java">
+    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/nodes/CameraPosition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="86" selection-start="474" selection-end="474" vertical-scroll-proportion="0.0">
+        <state line="40" column="33" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/node/Banking.java">
+    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/nodes/Banker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="64" selection-start="1926" selection-end="1926" vertical-scroll-proportion="1.1402439">
+        <state line="22" column="11" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/nodes/Cook.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="26" selection-start="1525" selection-end="1525" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/nodes/Antiban.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2006" selection-end="2006" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/enums/Location.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/generic/Data.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/script/excobot/generic/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="21" selection-start="791" selection-end="791" vertical-scroll-proportion="0.56889766">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -17,6 +17,8 @@ public class Constants {
 
     public static final int WIDGEt_LOBSTER_CHILD = 3;
 
+    public static final int WIDGEt_LOBSTER_MESSAGE = 7;
+
     public static final int DOOR_CLOSED = 7111;
 
     public static final int DOOR_OPEN = 7112;

@@ -1,5 +1,7 @@
-package com.script.excobot.node;
+package com.script.excobot.nodes;
 
+import com.script.excobot.enums.Food;
+import com.script.excobot.enums.Location;
 import com.script.excobot.generic.Node;
 
 import org.excobot.Application;
@@ -19,6 +21,10 @@ import com.script.excobot.Constants;
  */
 public class Antiban extends Node {
 
+    public Antiban(Location location, Food food) {
+        super(location, food);
+    }
+
     @Override
     protected boolean check() {
         return Players.getLocal().getInteracting() == null && isAnimating();
@@ -26,7 +32,7 @@ public class Antiban extends Node {
 
     @Override
     protected void execute() {
-        int random = Random.nextInt(0,75);
+        int random = Random.nextInt(0,130);
         switch (random) {
            case 1:
                 Time.sleep(Random.nextInt(10000,(30000+Random.nextInt(1000, 10000))));
@@ -52,7 +58,6 @@ public class Antiban extends Node {
                 break;
         }
 
-        Application.log("Anti ban method complete");
     }
 
     private boolean isAnimating() {

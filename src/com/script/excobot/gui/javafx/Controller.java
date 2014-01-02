@@ -15,7 +15,7 @@ public class Controller implements Initializable {
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
-        //To change body of implemented methods use File | Settings | File Templates.
+
     }
 
 }
