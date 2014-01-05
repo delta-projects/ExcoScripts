@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="Cooker">
-    <output-path>$USER_HOME$/ExcoBot/scripts</output-path>
-    <root id="archive" name="Cooker.jar">
-      <element id="module-output" name="ExcoScripts" />
-    </root>
-  </artifact>
-</component>

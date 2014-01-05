@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Barrows/Barrows.iml" filepath="$PROJECT_DIR$/Barrows/Barrows.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExcoScripts.iml" filepath="$PROJECT_DIR$/ExcoScripts.iml" />
     </modules>
   </component>
